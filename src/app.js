@@ -69,7 +69,7 @@ overlayContainer.sortableChildren = true;
 hudContainer.sortableChildren = true;
 
 // Preload some assets
-//APP.ticker.maxFPS = 144;
+//APP.ticker.maxFPS = 30;
 
 // OTHER VARS
 WORLD = new World();
@@ -158,7 +158,7 @@ function assetsLoaded()
 
     CAMERA.interruptedCameraPathing = true;
 
-    ticker.maxFPS = 144;
+    ticker.maxFPS = 30;
     // render loop
     ticker.add((delta) => 
     {
