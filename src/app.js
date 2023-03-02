@@ -1,7 +1,5 @@
 import {} from "./font.js";
 
-import * as PIXI from 'pixi.js';
-
 import { World } from "./world.js";
 import { Input } from "./input.js";
 import { Camera } from './camera.js';
@@ -40,7 +38,7 @@ stage.addChild(hudContainer);
 stage.addChild(devContainer);
 
 var ticker = new PIXI.Ticker();
-var loader = new PIXI.Assets();
+var loader = new PIXI.Loader();
 
 var resourceManager = new ResourceManager(loader);
 
