@@ -1,13 +1,15 @@
-import {} from "./font.js"
+import {} from "./font.js";
+
+import { Assets } from 'pixi.js';
 
 import { World } from "./world.js";
 import { Input } from "./input.js";
-import { Camera} from './camera.js'
+import { Camera } from './camera.js';
 import { AddItemComposition } from "./resource/itemdatabase.js";
 import { AddMapDefinition } from "./resource/mapdefinitions.js";
-import { Hud } from "./hud/hud.js"
+import { Hud } from "./hud/hud.js";
 
-import { ConnectToBackend } from "./backend.js" // idk whats going on but if I load font after I connect socket, fonts wont load
+import { ConnectToBackend } from "./backend.js"; // idk whats going on but if I load font after I connect socket, fonts wont load
 import { ResourceManager } from "./resource/resourcemanager.js";
 import { SpawnObject } from "./object.js";
 
