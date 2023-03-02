@@ -38,7 +38,7 @@ stage.addChild(hudContainer);
 stage.addChild(devContainer);
 
 var ticker = new PIXI.Ticker();
-var loader = PIXI.loader;
+var loader = new PIXI.Assets();
 
 var resourceManager = new ResourceManager(loader);
 
