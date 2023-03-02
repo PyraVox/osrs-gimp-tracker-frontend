@@ -1,6 +1,6 @@
 import {} from "./font.js";
 
-import { Assets } from './pixi.js';
+import * as PIXI from 'pixi.js';
 
 import { World } from "./world.js";
 import { Input } from "./input.js";
